@@ -22,12 +22,11 @@ class TodoList extends React.Component {
   render() {
     return (
       <ion-list>
-        <ion-list-header class="hydrated">Todo</ion-list-header>
+        <h1 style={{paddingLeft: 10}}>Todo</h1>
         {this.renderTodos(false)}
-        <ion-list-header class="hydrated">Completed</ion-list-header>
+        <h1 style={{paddingLeft: 10}}>Completed</h1>
         {this.renderTodos(true)}
       </ion-list>
-
     ); 
   }
   
